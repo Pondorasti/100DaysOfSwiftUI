@@ -86,7 +86,7 @@ Logging my progress of the 100DaysSwiftUI challenge
 - [ ] Day 54 -
 - [ ] Day 55 -
 - [ ] Day 56 -
-- [x] [Day 57](https://www.hackingwithswift.com/100/swiftui/57) - [Project 12 - Part 1](#project-12-CoreData-Deep-Dive)
+- [x] [Day 57](https://www.hackingwithswift.com/100/swiftui/57) - [Project 12 - Part 1](#Day-57)
 - [ ] Day 58 -
 - [ ] Day 59 -
 
@@ -153,7 +153,35 @@ Logging my progress of the 100DaysSwiftUI challenge
 - [ ] Day 100 -
 
 
-## Project 12 CoreData Deep Dive
+## Project 12 - CoreData Deep Dive
 
-* 
+*"succes is neither magical nor mysterious, success is the natural consequence of consistenly applying the basic fundamentals"* - Jim Rohn
+
+### [Day 57](https://www.hackingwithswift.com/100/swiftui/57)
+
+#### [Core Data: Introduction](https://www.hackingwithswift.com/books/ios-swiftui/core-data-introduction)
+
+- **Warning**: Xcode ignores changes made inside the CoreData editor -> make a habit out of pressing CMD+S to save files (experienced this myself, not funny 😤)
+
+#### [Why does \.self work for ForEach?](https://www.hackingwithswift.com/books/ios-swiftui/why-does-self-work-for-foreach)
+
+
+#### [Creating NSManagedObject subclasses](https://www.hackingwithswift.com/books/ios-swiftui/creating-nsmanagedobject-subclasses)
+
+
+#### [Conditional saving of NSManagedObjectContext](https://www.hackingwithswift.com/books/ios-swiftui/conditional-saving-of-nsmanagedobjectcontext)
+
+- Sometimes it’s common to bulk saves together, which has a lower performance impact.
+- Apple specifically states that you should always check for uncommitted changes before calling **save()**, to avoid unnecessary work
+- Every managed object and context variables are given a **hasChanges** property 
+
+```swift
+if self.moc.hasChanges {
+    try? self.moc.save()
+}
+```
+- Even though this is a small change, over it adds up and it will make a big difference
+
+
+#### [Ensuring Core Data objects are unique using constraints](https://www.hackingwithswift.com/books/ios-swiftui/ensuring-core-data-objects-are-unique-using-constraints)
 
