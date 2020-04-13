@@ -66,10 +66,10 @@ Logging my progress of the 100DaysSwiftUI challenge
 - [ ] Day 40 -
 - [ ] Day 41 -
 - [ ] Day 42 - 
-- [ ] Day 43 - 
-- [ ] Day 44 - 
-- [ ] Day 45 -
-- [ ] Day 46 -
+- [x] Day 43 - Project 9, Part one
+- [ ] Day 44 - Project 9, Part two
+- [ ] Day 45 - Project 9, Part three
+- [ ] Day 46 - Project 9, Part four
 
 ### Consolidation IV
 
@@ -151,6 +151,34 @@ Logging my progress of the 100DaysSwiftUI challenge
 ### Wrap up
 
 - [ ] Day 100 -
+
+
+## Project 9 - Drawing
+
+*“I sometimes think there is nothing so delightful as drawing.”* - Vincent Van Gogh
+
+### [Day 43](https://www.hackingwithswift.com/100/swiftui/43)
+
+#### [Drawing: Introduction](https://www.hackingwithswift.com/books/ios-swiftui/drawing-introduction)
+
+- SwiftUI uses the following frameworks for performing drawing: Core Animation and Metal. These 2 are almost interchangeable depending on your use case.
+
+#### [Creating custom paths with SwiftUI](https://www.hackingwithswift.com/books/ios-swiftui/creating-custom-paths-with-swiftui)
+
+- Path is a low level API for drawing custom shapes, aka “the building block”. Usually you are going to wrap it inside another View to make it more useful.
+
+#### [Paths vs shapes in SwiftUI](https://www.hackingwithswift.com/books/ios-swiftui/paths-vs-shapes-in-swiftui)
+
+- Paths are a single purpose object for creating paths :]
+- Shapes focus on reusability in mind because of:
+  - flexible drawing space
+  - custom init parameters for further customization
+
+- **Warning** shapes measure their coordinates from bottom-left rather than top-left
+
+#### [https://www.hackingwithswift.com/books/ios-swiftui/adding-strokeborder-support-with-insettableshape](https://www.hackingwithswift.com/books/ios-swiftui/adding-strokeborder-support-with-insettableshape)
+
+- SwiftUI draws its border from the centerline both inwards & outwards, therefore the shape’s border expand beyond the frame by half its lineWidth. Use strokeBorder to draw borders inside.
 
 
 ## Project 12 - CoreData Deep Dive
