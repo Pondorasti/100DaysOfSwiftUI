@@ -66,7 +66,7 @@ Logging my progress of the 100DaysSwiftUI challenge
 - [ ] Day 40 -
 - [ ] Day 41 -
 - [ ] Day 42 - 
-- [x] Day 43 - Project 9, Part one
+- [x] [Day 43](https://www.hackingwithswift.com/100/swiftui/43) - [Project 9 - Part 1](#Day-43)
 - [ ] Day 44 - Project 9, Part two
 - [ ] Day 45 - Project 9, Part three
 - [ ] Day 46 - Project 9, Part four
@@ -176,9 +176,9 @@ Logging my progress of the 100DaysSwiftUI challenge
 
 - **Warning** shapes measure their coordinates from bottom-left rather than top-left
 
-#### [https://www.hackingwithswift.com/books/ios-swiftui/adding-strokeborder-support-with-insettableshape](https://www.hackingwithswift.com/books/ios-swiftui/adding-strokeborder-support-with-insettableshape)
+#### [Adding strokeBorder() support with InsettableShape](https://www.hackingwithswift.com/books/ios-swiftui/adding-strokeborder-support-with-insettableshape)
 
-- SwiftUI draws its border from the centerline both inwards & outwards, therefore the shape’s border expand beyond the frame by half its lineWidth. Use strokeBorder to draw borders inside.
+- SwiftUI draws its border from the centerline both inwards & outwards, therefore the shape’s border expand beyond the frame by half its lineWidth. Use `strokeBorder` to draw borders inside and conform to `InsettableShape` protocol to allow any custom shape use the aforementioned modifier.
 
 
 ## Project 12 - CoreData Deep Dive
