@@ -66,7 +66,7 @@ Logging my progress of the 100DaysSwiftUI challenge
 - [ ] Day 40 -
 - [ ] Day 41 -
 - [ ] Day 42 - 
-- [x] [Day 43](https://www.hackingwithswift.com/100/swiftui/43) - [Project 9 - Part 1](#Day-43)
+- [x] [Day 43](https://www.hackingwithswift.com/100/swiftui/43) - [Project 9, Part 1](#Day-43)
 - [x] [Day 44](https://www.hackingwithswift.com/100/swiftui/44) - [Project 9, Part 2](#Day-44)
 - [ ] Day 45 - Project 9, Part 3
 - [ ] Day 46 - Project 9, Part 4
@@ -86,7 +86,7 @@ Logging my progress of the 100DaysSwiftUI challenge
 - [ ] Day 54 -
 - [ ] Day 55 -
 - [ ] Day 56 -
-- [x] [Day 57](https://www.hackingwithswift.com/100/swiftui/57) - [Project 12 - Part 1](#Day-57)
+- [x] [Day 57](https://www.hackingwithswift.com/100/swiftui/57) - [Project 12, Part 1](#Day-57)
 - [ ] Day 58 -
 - [ ] Day 59 -
 
