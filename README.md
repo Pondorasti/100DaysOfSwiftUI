@@ -67,9 +67,9 @@ Logging my progress of the 100DaysSwiftUI challenge
 - [ ] Day 41 -
 - [ ] Day 42 - 
 - [x] [Day 43](https://www.hackingwithswift.com/100/swiftui/43) - [Project 9 - Part 1](#Day-43)
-- [ ] Day 44 - Project 9, Part two
-- [ ] Day 45 - Project 9, Part three
-- [ ] Day 46 - Project 9, Part four
+- [x] [Day 44](https://www.hackingwithswift.com/100/swiftui/44) - [Project 9, Part 2](#Day-44)
+- [ ] Day 45 - Project 9, Part 3
+- [ ] Day 46 - Project 9, Part 4
 
 ### Consolidation IV
 
@@ -153,9 +153,14 @@ Logging my progress of the 100DaysSwiftUI challenge
 - [ ] Day 100 -
 
 
+
+
+
 ## Project 9 - Drawing
 
 *“I sometimes think there is nothing so delightful as drawing.”* - Vincent Van Gogh
+
+
 
 ### [Day 43](https://www.hackingwithswift.com/100/swiftui/43)
 
@@ -180,6 +185,26 @@ Logging my progress of the 100DaysSwiftUI challenge
 
 - SwiftUI draws its border from the centerline both inwards & outwards, therefore the shape’s border expand beyond the frame by half its lineWidth. Use `strokeBorder` to draw borders inside and conform to `InsettableShape` protocol to allow any custom shape use the aforementioned modifier.
 
+
+
+### [Day 44](https://www.hackingwithswift.com/100/swiftui/44)
+
+#### [Transforming shapes using CGAffineTransform and even-odd fills](https://www.hackingwithswift.com/books/ios-swiftui/transforming-shapes-using-cgaffinetransform-and-even-odd-fills)
+
+- `CGAffineTransform` measures angles in radians *oof*
+- even-odd rule `FillStyle` is cool
+
+#### [Creative borders and fills using ImagePaint](https://www.hackingwithswift.com/books/ios-swiftui/creative-borders-and-fills-using-imagepaint)
+
+- `ImagePaint` allows you to use any `Image` for a border/stroke. You can set scale, width and source rectangle that determines which part of the image to repeat in order to fill the content.
+
+- **Warning**: `ImagePaint` cannot use a vectored image
+
+#### [Enabling high-performance Metal rendering with drawingGroup()](https://www.hackingwithswift.com/books/ios-swiftui/enabling-high-performance-metal-rendering-with-drawinggroup)
+
+- `drawingGroup()` is a great modifier to apply whenever your drawings and animations are lagging behind.
+- Using this modifiers tells SwiftUI to render the contents of the view to an off-screen image and show it as a single rendered view. 
+- With great power comes great responsibility, therefore use it only when is it needed.
 
 ## Project 12 - CoreData Deep Dive
 
